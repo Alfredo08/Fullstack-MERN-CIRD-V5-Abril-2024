@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ES">
+    <head>
+        <title> Proyectos </title>
+        <meta charset="UTF-8"> 
+    </head>
+    <body>
+        <h1> Sección de proyectos </h1>
+        <a href="./../index.html"> Inicio </a>
+        <img src="./../imagenes/Peper.png" alt="Una gatita cálico">
+        <form>
+            <fieldset>
+                <div>
+                    <label for="nombre"> Nombre: </label>
+                    <input type="text" id="nombre" placeholder="Pon tu nombre" required>
+                </div>
+                <div>
+                    <label for="apellido"> Apellido: </label>
+                    <input type="text" id="apellido">
+                </div>
+                <div>
+                    <label for="password"> Password: </label>
+                    <input type="password" id="password">
+                </div>
+                <div>
+                    <h3> Género </h3>
+                    <label for="femenino"> Femenino: </label>
+                    <input type="radio" id="femenino" name="genero">
+                    <label for="masculino"> Masculino: </label>
+                    <input type="radio" id="masculino" name="genero">
+                    <label for="otro"> Otro: </label>
+                    <input type="radio" id="otro" name="genero">
+                </div>
+                <div>
+                    <h3> Lenguajes que conoces </h3>
+                    <label for="ingles"> Inglés </label>
+                    <input type="checkbox" id="ingles" name="lengaujes">
+                    <label for="español"> Español </label>
+                    <input type="checkbox" id="español" name="lengaujes">
+                    <label for="aleman"> Alemán </label>
+                    <input type="checkbox" id="aleman" name="lengaujes">
+                    <label for="frances"> Francés </label>
+                    <input type="checkbox" id="frances" name="lengaujes">
+                    <label for="japones"> Japonés </label>
+                    <input type="checkbox" id="japones" name="lengaujes">
+                </div>
+                <div>
+                    <label for="pais">Pais de residencia:</label>
+                    <select id="pais">
+                        <option value="PA"> Paraguay </option>
+                        <option value="ME" > México </option>
+                        <option value="US"> USA </option>
+                        <option value="CA"> Canadá </option>
+                        <option value="CH"> Chile </option>
+                    </select>
+                </div>
+                <div>
+                    <label for="comentarios"> Déjanos tus comentarios </label>
+                    <textarea id="comentarios"></textarea>
+                </div>
+                <button>
+                    Enviar
+                </button>
+            </fieldset>
+        </form>
+    </body>
+</html>
