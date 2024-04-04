@@ -1,0 +1,60 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: #4F545F;
+    margin: 0;
+}
+
+h1{
+    background-color: #55B3C5;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    /*
+    padding-left: 100px;
+    padding: 20px 100px;
+    padding: 20px 50px 100px 200px
+    */
+}
+
+fieldset{
+    border: 2px dashed #DDDDDD;
+    margin: 20px;
+    padding: 20px;
+}
+
+legend{
+    font-weight: bold;
+}
+
+.formElement{
+    width: 300px;
+    padding: 6px;
+    margin-bottom: 15px;
+}
+
+#information{
+    border: 1px solid #6278B0;
+    padding: 20px 40px;
+    display: block;
+    background-color: #CCE9F8;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.submissionButtons{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #D9534F;
+    color: white;
+    border-radius: 5px;
+}
+
+.special{
+    background-color: #56C56F;
+}
+
+.submissionButtons:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
