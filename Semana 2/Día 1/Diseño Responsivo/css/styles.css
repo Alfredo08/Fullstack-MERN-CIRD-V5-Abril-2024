@@ -1,0 +1,95 @@
+/* Estilos para mobiles y pantallas más grandes */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-image{
+    width: 40%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(131, 131, 131);
+    color: white;
+    padding-right: 15px;
+}
+
+.menu{
+    display: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+}
+
+.product{
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.social{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    border-top: 1px solid rgb(202, 202, 202);
+    padding-top: 15px;
+}
+
+/* Estilos para tabletas y pantallas más grandes */
+@media screen and (min-width: 520px){
+    header{
+        flex-direction: row;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .social{
+        justify-content: space-around;
+    }
+}
+
+/* Estilos para pantallas grandes */
+@media screen and (min-width: 990px){
+    .menu{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 0;
+        padding: 15px;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    main{
+        flex-direction: row;
+    }
+
+    .product{
+        flex: 1;
+    }
+}
