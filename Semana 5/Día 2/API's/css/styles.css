@@ -1,0 +1,9 @@
+.resultados{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.imagen-perrito{
+    width: 250px;
+}
