@@ -52,7 +52,7 @@ module.exports.actualizarUsuario = (req, res) => {
 
     // Falta agregar validaciones para actualizar
 
-    return Usuario.updateOne({correo: req.params.correo}, camposParaActualizar)
+    return Usuario.updateOne({correo: req.params.correo}, camposParaActualizar, {new: true})
         .then((usuarioActualizado) => {
             return res.status(200).json(usuarioActualizado);
         });
